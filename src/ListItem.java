@@ -1,4 +1,11 @@
+import java.util.List;
 
-public class ListItem {
+public abstract class ListItem {
+	ListItem name;
+	ListItem nextItem;
+	ListItem previousItem;
+	
+	List<ListItem> listItems;
+	
 
 }
